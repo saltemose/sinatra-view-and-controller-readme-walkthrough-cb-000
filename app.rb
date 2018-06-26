@@ -10,7 +10,8 @@ class App < Sinatra::Base
   end
 
   get '/friends' do
-    # Write your code here!
+    erb :friends
+  end
 
   end
 end
